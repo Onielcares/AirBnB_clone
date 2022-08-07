@@ -1,8 +1,14 @@
 #!/usr/bin/python3
-""" Class State """
+"""Define the state class"""
+
+import uuid
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """ State class that inherits BaseModel"""
+    """Represents a state
+
+    Attributes:
+        name (str): state name
+    """
     name = ""
