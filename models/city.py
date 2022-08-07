@@ -1,16 +1,9 @@
 #!/usr/bin/python3
-"""Define the city class"""
-
+""" Class City """
 from models.base_model import BaseModel
-import uuid
 
 
 class City(BaseModel):
-    """Represents a city
-
-    Attributes:
-        state_id (str): State id
-        name (str): State name
-    """
+    """ City class that inherits BaseModel """
     state_id = ""
     name = ""
