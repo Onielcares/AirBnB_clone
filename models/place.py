@@ -1,25 +1,25 @@
 #!/usr/bin/python3
-"""
-    Place modules
-"""
+"""Define the place class"""
+
+import uuid
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
-    """
-        Place Class inherit from base
-        Attribute:
-            city_id (str)
-            user_id (str)
-            name (str)
-            description (str)
-            number_rooms (int)
-            number_bathrooms (int)
-            max_guest (int)
-            price_by_night (int)
-            latitude  (float)
-            longitude (float)
-            amenity_ids (list)
+    """Represents a place
+
+    Attributes:
+        city_id (str): city id
+        user_id (str): user id
+        name (str): state name
+        description (str): place description
+        number_rooms (int): room's number
+        number_bathrooms (int): number of bathrooms
+        max_guest (int): maximum guest
+        price_by_night (int): price by night
+        latitude (float): latitude of the place
+        longitude (float): longitude of the place
+        amenity_ids (str): amenity id
     """
     city_id = ""
     user_id = ""
@@ -31,10 +31,4 @@ class Place(BaseModel):
     price_by_night = 0
     latitude = 0.0
     longitude = 0.0
-    amenity_ids = []
-
-    def __init__(self, *args, **kwargs):
-        """
-            init
-        """
-        super().__init__(*args, **kwargs)
+    amenity_ids = ""

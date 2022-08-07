@@ -1,15 +1,17 @@
 #!/usr/bin/python3
+
 """
-    __init__ modules
+__init__ method for models package
 """
 from models.engine.file_storage import FileStorage
-from .base_model import BaseModel
-from .user import User
-from .review import Review
-from .city import City
-from .amenity import Amenity
-from .place import Place
-from .state import State
+from models.base_model import BaseModel
+from models.user import User
+from models.review import Review
+from models.place import Place
+from models.city import City
+from models.amenity import Amenity
+from models.state import State
+
 
 storage = FileStorage()
 storage.reload()
