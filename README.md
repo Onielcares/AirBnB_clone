@@ -1,18 +1,17 @@
-# AirBnB Clone
+# AirBnB Clone - 
 
-![AirBnB console](https://raw.githubusercontent.com/bdbaraban/AirBnB_clone/master/assets/hbnb_logo.png)
+![AirBnB console](./hbnb_logo.png)
 
-### Contents
+### Background Contents
 
 - [Description](#Description)
 - [Environment](#Environment)
 - [Further Information](#Furtherinformation)
 - [Requirements](#Requirements)
 - [Repo Contents](#FileContents)
-- [Installation](#Installation)
 - [Usage](#Usage)
-- [Built with](#Built-with)
-- [Acknowledgements](#Acknowledgements)
+- [Code with](#Built-with)
+- [Authors](#Authors)
 
 ## Description
 
@@ -20,13 +19,13 @@ This is the first phase of a four phase project, to create a basic clone of the 
 
 ## Environment
 
-Ubuntu 14.04LTS using python3 (version 3.4.3) was used for the Project.
+Ubuntu 14.04LTS using python3 (version 3.4.3) used in this  Project Phase.
 
 ## Further information
 
 For further information on python version, and documentation visit [python.org](https://www.python.org/).
 
-## Requirements 
+## Requirements
 
 Python3, Command line interpreter, Ubuntu 14.04 machine, pycodestyle.
 
@@ -67,14 +66,13 @@ This repository constains the following files:
 | [destroy](./console.py)   | Deletes an instance based on the class name and id (save the change into the JSON file)                                 |
 | [count](./console.py)     | Retrieve the number of instances of a class                                                                             |
 | [help](./console.py)      | Prints information about specific command                                                                               |
-| [quit/ EOF](./console.py) | Exit the program                                                                                                        |
+| [quit/ EOF](./console.py) | Exit the program                                                                   
 
-## Coded in
+## Coded with
 
-python3 (3.4.3)
+Python3 (3.4.3)
 
-
-### Authors
+## Authors
 
 - Chioma Udoh - @Chioma2000
 - Nathaniel Olatomide - @Onielcares
