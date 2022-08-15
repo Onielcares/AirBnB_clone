@@ -68,3 +68,19 @@ div.container section.filters .locations:hover .popover,
 div.container section.filters .amenities:hover .popover{
     visibility: visible;
 }
+@media screen and (max-width: 575px) {
+    .filters {
+        width: 100%;
+    }
+    .filters button {
+        width: 90%;
+    }
+    .filters .locations,
+    .filters .amenities {
+        width: 100%;
+    }
+    .filters .locations {
+        border-bottom: 1px solid #dddddd;
+        width: 100%;
+    }
+}
